@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ProtonGuiStore">
+  <grid id="27dc6" binding="ProtonStore" layout-manager="GridLayoutManager" row-count="10" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="877" height="511"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3e37e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Proton Car Store"/>
+        </properties>
+      </component>
+      <component id="a1ee2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Your Name"/>
+        </properties>
+      </component>
+      <component id="47e68" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Your Phone Number"/>
+        </properties>
+      </component>
+      <component id="192ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Your e-mail or gmail"/>
+        </properties>
+      </component>
+      <component id="e4538" class="javax.swing.JTextField" binding="tfname">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="646d1" class="javax.swing.JTextField" binding="tfphone">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1b1ec" class="javax.swing.JTextField" binding="tfgmail">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="283a4">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a7d2d">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c2738" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Which Type Do You Want?"/>
+        </properties>
+      </component>
+      <component id="33fa7" class="javax.swing.JList" binding="listPersona">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Proton Persona"/>
+            <item value=""/>
+            <item value="Features : Big boot"/>
+            <item value="Tyre Brand : Dunlop"/>
+            <item value="Tyre Size : 18"/>
+            <item value="Window : Up"/>
+            <item value="Headlight : On"/>
+            <item value="Window : Down"/>
+            <item value="Headlight : Off"/>
+            <item value="Price = RM. RM 42.600"/>
+          </model>
+        </properties>
+      </component>
+      <component id="d8af6" class="javax.swing.JList" binding="listSaga">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Proton Saga"/>
+            <item value=""/>
+            <item value="Features : Fuel Consumption"/>
+            <item value="Tyre Brand : Dunlop"/>
+            <item value="Tyre Size : 18"/>
+            <item value="Window : Up"/>
+            <item value="Headlight : On"/>
+            <item value="Window : Down"/>
+            <item value="Headlight : Off"/>
+            <item value="Price = RM. 49.899"/>
+          </model>
+        </properties>
+      </component>
+      <component id="68c5f" class="javax.swing.JList" binding="listx70">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Proton X70"/>
+            <item value=""/>
+            <item value="Features = Auto Drive"/>
+            <item value="Tyre Brand : Dunlop"/>
+            <item value="Tyre Size : 18"/>
+            <item value="Window : Up"/>
+            <item value="Headlight : On"/>
+            <item value="Window : Down"/>
+            <item value="Headlight : Off"/>
+            <item value="Price = RM. 99.855"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6fc88" class="javax.swing.JList" binding="listx50">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Proton X50"/>
+            <item value=""/>
+            <item value="Features = Auto Parking"/>
+            <item value="Tyre Brand : Dunlop"/>
+            <item value="Tyre Size : 18"/>
+            <item value="Window : Up"/>
+            <item value="Headlight : On"/>
+            <item value="Window : Down"/>
+            <item value="Headlight : Off"/>
+            <item value="Price = RM. 112,480"/>
+          </model>
+        </properties>
+      </component>
+      <component id="afb97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Your Average Monthly Income"/>
+        </properties>
+      </component>
+      <component id="e991b" class="javax.swing.JTextField" binding="tfincome">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="988d6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Your Installment per a month"/>
+        </properties>
+      </component>
+      <component id="16dc0" class="javax.swing.JTextField" binding="tfinstallment">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="22f3" class="javax.swing.JButton" binding="calculateInstallmentButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate installment"/>
+        </properties>
+      </component>
+      <component id="534a2" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="20281" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
